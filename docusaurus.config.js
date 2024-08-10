@@ -4,16 +4,16 @@ import { themes as prismThemes } from "prism-react-renderer";
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: "My Site",
-  tagline: "Dinosaurs are cool",
+  title: "InstallerArmory",
+  tagline: "Your ultimate guide to effortless installations!",
   favicon: "img/favicon.ico",
 
   // Set the production url of your site here
   url: "https://192.168.0.6:3000",
-  baseUrl: "/Installify/",
+  baseUrl: "/InstallerArmory/",
 
   organizationName: "facebook", // Your GitHub org/user name
-  projectName: "docusaurus", // Your repo name
+  projectName: "Installation", // Your repo name
 
   onBrokenLinks: "throw",
   onBrokenMarkdownLinks: "warn",
@@ -82,11 +82,11 @@ const config = {
     },
     // image: "img/docusaurus-social-card.jpg",
     navbar: {
-      title: "Installify",
-      // logo: {
-      //   alt: "My Site Logo",
-      //   src: "img/logo.svg",
-      // },
+      title: "InstallerArmory",
+      logo: {
+        alt: "iA",
+        src: "img/InstallerArmory.png",
+      },
       items: [
         {
           type: "dropdown",
@@ -116,7 +116,7 @@ const config = {
         { to: "/blog", label: "About", position: "left" },
         { to: "/blog", label: "Request", position: "right" },
         {
-          href: "https://github.com/facebook/docusaurus",
+          href: "https://github.com/jeetsuthar/Installify",
           label: "GitHub",
           position: "right",
         },
@@ -155,7 +155,7 @@ const config = {
         // Add more sections if needed
       ],
 
-      copyright: `Copyright © ${new Date().getFullYear()} Installify, Inc. Built with Docusaurus.`,
+      copyright: `Copyright © ${new Date().getFullYear()} InstallerArmory. All Right Reserved`,
     },
 
     prism: {

@@ -1,14 +1,12 @@
 import React, { useEffect } from "react";
 import { Typewriter } from "react-simple-typewriter";
-import Installation from "./images/hero-section.png";
 import Marquee from "react-fast-marquee";
 import Aos from "aos";
 import "aos/dist/aos.css";
-// import WhychooseUs from "./images/codeing.png";
-// import more from "../../icons/Right-Arrow.svg";
-
 import "./home.css";
-
+import "react-tooltip/dist/react-tooltip.css";
+import { Tooltip } from "react-tooltip";
+// import { Tooltip as ReactTooltip } from "react-tooltip";
 const Home = () => {
   useEffect(() => {
     Aos.init({ duration: 2000 });
@@ -18,43 +16,52 @@ const Home = () => {
     {
       language: "Python",
       logo: "https://cdn-icons-png.flaticon.com/128/5968/5968350.png",
-      redirecting: "./docs/Programming/python/"
+      redirecting: "./docs/Programming/python/",
     },
     {
       language: "Java",
       logo: "https://cdn-icons-png.flaticon.com/128/919/919854.png",
+      redirecting: "./docs/Programming/java/",
     },
     {
       language: "C",
       logo: "https://cdn-icons-png.flaticon.com/128/3665/3665923.png",
+      redirecting: "./docs/Programming/C/",
     },
     {
       language: "C++",
       logo: "https://cdn-icons-png.flaticon.com/128/6132/6132222.png",
+      redirecting: "./docs/Programming/CPlusPlus/",
     },
     {
       language: "JavaScript",
       logo: "https://cdn-icons-png.flaticon.com/128/5968/5968292.png",
+      redirecting: "./docs/Programming/JavaScript/",
     },
     {
       language: "Ruby",
       logo: "https://cdn-icons-png.flaticon.com/128/919/919842.png",
+      redirecting: "./docs/Programming/Ruby/",
     },
     {
       language: "PHP",
       logo: "https://cdn-icons-png.flaticon.com/128/5968/5968332.png",
+      redirecting: "./docs/Programming/PHP/",
     },
     {
       language: "Swift",
       logo: "https://cdn-icons-png.flaticon.com/128/3670/3670396.png",
+      redirecting: "./docs/Programming/Swift/",
     },
     {
       language: "Kotlin",
       logo: "https://download.logo.wine/logo/Kotlin_(programming_language)/Kotlin_(programming_language)-Logo.wine.png",
+      redirecting: "./docs/Programming/Kotlin/",
     },
     {
       language: "R",
       logo: "https://cdn-icons-png.flaticon.com/128/2103/2103665.png",
+      redirecting: "./docs/Programming/R/",
     },
     {
       language: "Go",
@@ -67,6 +74,7 @@ const Home = () => {
     {
       language: "TypeScript",
       logo: "https://cdn-icons-png.flaticon.com/128/5968/5968381.png",
+      redirecting: "./docs/Programming/TypeScript/",
     },
     {
       language: "Node.js",
@@ -97,7 +105,6 @@ const Home = () => {
       logo: "https://cdn.prod.website-files.com/6047a9e35e5dc54ac86ddd90/63064f1fedf422395124660e_e7d03466.png",
     },
   ];
-
   // Most popular tools for infinite scroll ( name and logo )
   const Software = [
     {
@@ -199,258 +206,266 @@ const Home = () => {
   ];
 
   return (
-    <>
-      {/* FIRST SECTION START TO BE HERE */}
-      <div className="background_image">
-        <section className="hero_section">
-          {/* left side data  */}
-          <div
-            className="left_section"
-            // data-aos="fade-up"
-            // data-aos-anchor="#example-anchor"
-            // data-aos-offset="500"
-            // data-aos-duration="500"
-            data-aos="fade-right"
-          >
-            <div className="Text_area">
-              <h1 className="tag_line">
-                Simple & Easy <span className="Installation">Installation</span>{" "}
-                Steps.
-              </h1>
-
-              {/* <div className="search_menu">
-                <form>
-                  <input
-                    type="search"
-                    placeholder="Python, Java, VS Code ....."
-                    required
+    <main>
+      <section className="Intro_section">
+        <div className="Intro_Outer_Div">
+          <div className="Glass_Effect">
+            <div className="Glass_Heading">
+              <h1>Install Anything with Ease!</h1>
+            </div>
+            <div className="Glass_Description">
+              <p>
+                Hey<span>👋</span>, If you are Tired of struggling with complex
+                installation processes? Installer-Armory simplifies it all.
+                Whether you're a first-time user or need to troubleshoot an
+                existing setup, find clear, step-by-step instructions for
+                <span className="Typewriter">
+                  <Typewriter
+                    words={[
+                      "Web Development !",
+                      "Databases !",
+                      "Programming Languages !",
+                      "App Development !",
+                      "DevOps !",
+                      "Cyber security !",
+                      "Version Control !",
+                      "Code Editors/IDEs !",
+                      "Design & Prototyping !",
+                      "Package Managers !",
+                      "Data Analysis !",
+                      "Virtualization !",
+                      "API Development !",
+                      "Backend Frameworks !",
+                    ]}
+                    loop={13}
+                    cursor
+                    cursorStyle="|"
+                    typeSpeed={30}
+                    deleteSpeed={40}
+                    delaySpeed={1000}
                   />
-                  <button>Search</button>
-                </form>
-              </div> */}
-
-              <article className="welcome_text">
-                {/* <h1> Welcome to Installify! </h1> */}
-                <h4> Your ultimate guide to effortless installations.</h4>
-                <p>
-                  Whether you're just starting or you're a seasoned pro,
-                  Installify simplifies the process of setting up
-                  <span className="changable_text ">
-                    <Typewriter
-                      words={[
-                        "Web Development !",
-                        "Databases !",
-                        "Programming Languages !",
-                        "App Development !",
-                        "DevOps !",
-                        "Cyber security !",
-                        "Version Control !",
-                        "Code Editors/IDEs !",
-                        "Design and Prototyping !",
-                        "Package Managers !",
-                        "Data Analysis !",
-                        "Virtualization !",
-                        "API Development !",
-                        "Backend Frameworks !",
-                      ]}
-                      loop={13}
-                      cursor
-                      cursorStyle="_"
-                      typeSpeed={50}
-                      deleteSpeed={50}
-                      delaySpeed={1000}
-                    />
-                  </span>
-                  <br />
-                  No more headaches — just clear, step-by-step instructions that
-                  make installations a breeze.
-                </p>
-              </article>
-
-              <div className="navigate_buttons">
-                <button className="Get_Start">
-                  <span>Get Started</span>
-                  {/* <img src={more} alt="" /> */}
-                </button>
-                <button className=" contact">
-                  <span>Request </span>
-                  {/* <img src={more} alt="" /> */}
+                </span>
+              </p>
+            </div>
+            <div className="Glass_Button_Group">
+              <div className="Glass_Button_1">
+                <button
+                  data-tooltip-id="my-tooltip"
+                  data-tooltip-content="Let's Start Your First Installation"
+                  data-tooltip-place="bottom"
+                >
+                  Get Start
                 </button>
               </div>
+              <div className="Glass_Button_2">
+                <button
+                  data-tooltip-id="my-tooltip"
+                  data-tooltip-content="Send Request For Adding More Installation Guidance"
+                  data-tooltip-place="bottom"
+                >
+                  Request
+                </button>
+              </div>
+              <Tooltip id="my-tooltip" />
             </div>
           </div>
+        </div>
+      </section>
 
-          {/* right side data  */}
-          <div className="right_section" data-aos="fade-left">
-            <div
-              className="Img_division"
-              // data-aos="fade-up"
-              // data-aos-offset="500"
-              // data-aos-duration="500"
-            >
-              <img src={Installation} alt="" />
-            </div>
-          </div>
-        </section>
-      </div>
-
-      {/* SECOND SECTION START TO BE HERE */}
       <section className="second_section">
-        <h1
-          className="Section_2_heading"
-          data-aos="zoom-in"
-          data-aos-duration="500"
-        >
-          Programming <span>Languages</span>
-        </h1>
-
-        <div className="Marquee">
-          <Marquee
-            direction="right"
-            pauseOnHover="true"
-            autoFill="true"
-            speed={120}
-            gradient
-            gradientColor="var(--background)"
-            gradientWidth={"100px"}
+        <div className="second_section_inner_div">
+          <h1
+            className="Marquee_content_Heading"
+            data-aos="zoom-out"
+            data-aos-duration="500"
           >
-            <div className="Tech_name">
-              {Languages.map((item, index) => (
-                <div key={index} className="Individual_container">
-                  <a href={item.redirecting}>
-                    <img src={item.logo} alt={item.language} />
-                    <p>{item.language}</p>
-                  </a>
-                </div>
-              ))}
-            </div>
-          </Marquee>
-        </div>
-
-        <h1
-          className="Section_2_heading"
-          data-aos="zoom-in"
-          data-aos-duration="500"
-        >
-          Most <span>Popular</span> Tools
-        </h1>
-        <div className="Marquee">
-          <Marquee
-            direction="left"
-            pauseOnHover="true"
-            autoFill="true"
-            speed={120}
-            gradient
-            gradientColor="var(--background)"
-            gradientWidth={"100px"}
-          >
-            <div className="Tech_name">
-              {Software.map((item, index) => (
-                <div key={index} className="Individual_container">
-                  <img src={item.logo} alt={item.name} />
-                  <p>{item.name}</p>
-                </div>
-              ))}
-            </div>
-          </Marquee>
-        </div>
-      </section>
-
-      {/* THIRD SECTION START TO BE HERE */}
-      <section className="Third_section">
-        <div className="Section_third_heading">
-          <h1>
-            Why <span>Choose</span> Us
+            Programming Languages
           </h1>
-          <p className="Section_third_description">
-            Some description related to that context
-          </p>
+
+          <div
+            className="Marquee"
+            data-tooltip-id="my-tooltip"
+            data-tooltip-content="Choose one to automatically go to its installation guide—no extra steps needed."
+            data-tooltip-place="top"
+          >
+            <Marquee
+              direction="left"
+              pauseOnHover="true"
+              autoFill="true"
+              speed={120}
+            >
+              <div className="Tech_name">
+                {Languages.map((item, index) => (
+                  <div key={index} className="Individual_container">
+                    <a href={item.redirecting}>
+                      <img
+                        src={item.logo}
+                        alt={item.language}
+                        className="all_logo"
+                      />
+                      <p>{item.language}</p>
+                    </a>
+                  </div>
+                ))}
+              </div>
+            </Marquee>
+          </div>
+          <Tooltip id="my-tooltip" />
+
+          <h1
+            className="Marquee_content_Heading"
+            data-aos="zoom-out"
+            data-aos-duration="500"
+          >
+            Most Popular Tools
+          </h1>
+          <div className="Marquee"  data-tooltip-id="my-tooltip"
+            data-tooltip-content="किसी एक को चुनें, और यह बिना किसी रुकावट के सीधे उसकी इंस्टॉलेशन गाइड पर ले जाएगा।"
+            data-tooltip-place="top">
+            <Marquee
+              direction="right"
+              pauseOnHover="true"
+              autoFill="true"
+              speed={120}
+            >
+              <div className="Tech_name">
+                {Software.map((item, index) => (
+                  <div key={index} className="Individual_container">
+                    <img src={item.logo} alt={item.name} className="all_logo" />
+                    <p>{item.name}</p>
+                  </div>
+                ))}
+              </div>
+            </Marquee>
+          </div>
+          <Tooltip id="my-tooltip" />
+
         </div>
+      </section>
 
-        <div className="Section_third_guidence">
-          <div className="Guidence_left_part" data-aos="fade-down">
-            <div className="left_part_content">
-              <div className="left_content">
-                <h1>Comprehensive Methods</h1>
-                <p>
-                  Explore every installation method, from standard to advanced,
-                  tailored to your needs.
-                </p>
-              </div>
-              {/* <div className="icon_section">
-                <img
-                  src="https://img.freepik.com/free-vector/cross-platform-software-concept-illustration_114360-7433.jpg?t=st=1721585160~exp=1721588760~hmac=daa03ae4f69c7915874637a2cda073454edc9e75d0c300bf19d94fc58491363d&w=740"
-                  alt=""
-                />
-              </div> */}
-            </div>
-            <div className="left_part_content">
-              <div className="left_content">
-                <h1>Open Source Access</h1>
-                <p>
-                  Access our website's code freely on GitHub for complete
-                  transparency and customization.
-                </p>
-              </div>
-              {/* <div className="icon_section">
-                <img
-                  src="https://img.freepik.com/free-vector/operating-system-concept-illustration_114360-2195.jpg?t=st=1721585310~exp=1721588910~hmac=782ae45d58d93613629fb35d68a56d38e319c64782a8d76af71ab70efdc12d3c&w=740"
-                  alt=""
-                />
-              </div> */}
-            </div>
+      <section className="Why-Choose-Us">
+        <div className="why-choose-us-div">
+          <div
+            className="Section-Main-Heading"
+            data-aos="zoom-out"
+            data-aos-duration="500"
+          >
+            <h1>Why Choose Us ?</h1>
           </div>
-
-          <div className="Guidence_middle_part">
-            <div className="middle_part_image">
-              {/* <img src={why_choose_us} alt="" /> */}
-              <img
-                src="https://img.freepik.com/free-vector/programming-concept-illustration_114360-1351.jpg?t=st=1721135860~exp=1721139460~hmac=dc250b263e48e21474c177c7f73723253e822594587b13a5b3010938a92dd4da&w=740"
-                // src={WhychooseUs}
-                // src="https://img.freepik.com/free-vector/gradient-step-illustration_23-2150126725.jpg?t=st=1721585509~exp=1721589109~hmac=15c3f3222d58626b86552e00864eefa84c74cd4790f268d1c67c0cc2b1e231e9&w=740"
-                alt=""
-              />
-            </div>
-          </div>
-
-          <div className="Guidence_right_part" data-aos="fade-down">
-            <div className="right_part_content">
-              <div className="right_content">
-                <h1>Easy Navigation</h1>
+          <div className="Outer-Div-Details">
+            <div className="left-sided-box">
+              <div
+                className="left-inner-sided-box common_style "
+                data-aos="zoom-out"
+                data-aos-duration="500"
+              >
+                <h1>Comprehensive Guidance</h1>
                 <p>
-                  Effortlessly find what you need with our simple and intuitive
-                  layout.
+                  <ul>
+                    <li>
+                      {" "}
+                      Save time and avoid common pitfalls with our easy,
+                      step-by-step instructions.
+                    </li>
+                    <li>
+                      {" "}
+                      Guidance on installing 30+ of popular programming
+                      languages, tools, and software.
+                    </li>
+                    <li>
+                      {" "}
+                      Benefit from clear instructions, with screenshots and
+                      troubleshooting tips, for all skill levels.
+                    </li>
+                    <li>
+                      {" "}
+                      Join [processing...] users who trust our guides, rated 4.5
+                      stars for their reliability.
+                    </li>
+                  </ul>
                 </p>
               </div>
-              {/* <div className="icon_section">
-                <img
-                  src="https://img.freepik.com/free-vector/speech-text-concept-illustration_114360-4235.jpg?t=st=1721585468~exp=1721589068~hmac=b6725939b1bd3d1a8d61773855597295542947d60ca2c87815b59626221d2207&w=740"
-                  alt=""
-                />
-              </div> */}
             </div>
-
-            <div className="right_part_content">
-              <div className="right_content">
-                <h1>Straightforward Guidance</h1>
+            <div className="right-sided-box">
+              <div
+                className="right-inner-sided-box common_style "
+                data-aos="zoom-out"
+                data-aos-duration="500"
+              >
+                <h1>Beginner-Friendly</h1>
                 <p>
-                  Follow detailed steps for each topic to ensure a smooth
-                  installation process.
+                  <ul>
+                    <li>
+                      Designed for all skill levels, from novices to seasoned
+                      pros.
+                    </li>
+                    <li>
+                      Start with the basics and progress at your own pace with
+                      our intuitive guides.
+                    </li>
+                    <li>
+                      Simple language, clear examples, and accessible resources
+                      for every step.
+                    </li>
+                  </ul>
                 </p>
               </div>
-              {/* <div className="icon_section">
-                <img
-                  src="https://img.freepik.com/free-vector/gradient-step-illustration_23-2150126725.jpg?t=st=1721585509~exp=1721589109~hmac=15c3f3222d58626b86552e00864eefa84c74cd4790f268d1c67c0cc2b1e231e9&w=740"
-                  alt=""
-                />
-              </div> */}
+            </div>
+            <div className="left-sided-box">
+              <div
+                className="left-inner-sided-box common_style "
+                data-aos="zoom-out"
+                data-aos-duration="500"
+              >
+                <h1>Open Source</h1>
+                <p>
+                  <ul>
+                    <li>
+                      Access all our installation guides completely free of
+                      charge—no hidden fees.
+                    </li>
+                    <li>
+                      Our community-driven content is transparent, with
+                      contributions from users worldwide.
+                    </li>
+                    <li>
+                      Modify, share, and adapt our guides to fit your specific
+                      needs without any restrictions.
+                    </li>
+                  </ul>
+                </p>
+              </div>
+            </div>
+            <div className="right-sided-box">
+              <div
+                className="right-inner-sided-box common_style "
+                data-aos="zoom-out"
+                data-aos-duration="500"
+              >
+                <h1>Up-to-Date Information</h1>
+                <p>
+                  <ul>
+                    <li>
+                      Stay ahead with the latest installation instructions for
+                      the newest versions.
+                    </li>
+                    <li>
+                      We constantly update our guides to reflect the most
+                      current software and tools.
+                    </li>
+                    <li>
+                      Avoid outdated methods—our content is regularly reviewed
+                      and refreshed.
+                    </li>
+                  </ul>
+                </p>
+              </div>
             </div>
           </div>
         </div>
       </section>
 
-      {/* Add more section ... */}
-    </>
+    </main>
   );
 };
 
