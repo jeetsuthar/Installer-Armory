@@ -116,7 +116,7 @@ const config = {
         { to: "/blog", label: "About", position: "left" },
         { to: "/blog", label: "Request", position: "right" },
         {
-          href: "https://github.com/jeetsuthar/Installify",
+          href: "https://github.com/jeetsuthar/InstallerArmory",
           label: "GitHub",
           position: "right",
         },
