@@ -250,7 +250,7 @@ const Home = () => {
             <div className="Glass_Button_Group">
               <div className="Glass_Button_1">
                 <button
-                  data-tooltip-id="my-tooltip"
+                  data-tooltip-id="tooltips"
                   data-tooltip-content="Let's Start Your First Installation"
                   data-tooltip-place="bottom"
                 >
@@ -259,14 +259,13 @@ const Home = () => {
               </div>
               <div className="Glass_Button_2">
                 <button
-                  data-tooltip-id="my-tooltip"
+                  data-tooltip-id="tooltips"
                   data-tooltip-content="Send Request For Adding More Installation Guidance"
                   data-tooltip-place="bottom"
                 >
                   Request
                 </button>
               </div>
-              <Tooltip id="my-tooltip" />
             </div>
           </div>
         </div>
@@ -284,9 +283,7 @@ const Home = () => {
 
           <div
             className="Marquee"
-            data-tooltip-id="my-tooltip"
-            data-tooltip-content="Choose one to automatically go to its installation guide—no extra steps needed."
-            data-tooltip-place="top"
+            
           >
             <Marquee
               direction="left"
@@ -310,7 +307,7 @@ const Home = () => {
               </div>
             </Marquee>
           </div>
-          <Tooltip id="my-tooltip" />
+          
 
           <h1
             className="Marquee_content_Heading"
@@ -319,9 +316,10 @@ const Home = () => {
           >
             Most Popular Tools
           </h1>
-          <div className="Marquee"  data-tooltip-id="my-tooltip"
-            data-tooltip-content="किसी एक को चुनें, और यह बिना किसी रुकावट के सीधे उसकी इंस्टॉलेशन गाइड पर ले जाएगा।"
-            data-tooltip-place="top">
+          <div
+            className="Marquee"
+            
+          >
             <Marquee
               direction="right"
               pauseOnHover="true"
@@ -338,8 +336,7 @@ const Home = () => {
               </div>
             </Marquee>
           </div>
-          <Tooltip id="my-tooltip" />
-
+          <Tooltip id="tooltips" />
         </div>
       </section>
 
@@ -464,7 +461,6 @@ const Home = () => {
           </div>
         </div>
       </section>
-
     </main>
   );
 };
