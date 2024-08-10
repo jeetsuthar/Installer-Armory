@@ -11,7 +11,7 @@ const Footer = () => {
           <div className="footer_top_content">
             <div className="footer_top_content">
               <div className="footer_top_content_logo">
-                <Link to="/InstallerArmory/">
+                <Link to="">
                   <img src={Logo} alt="logo" />
                   <h2>InstallerArmory</h2>
                 </Link>
@@ -79,6 +79,7 @@ const Footer = () => {
               </div>
               <div className="footer_links_parts_multiple_link">
                 <ul>
+                  {/*  */}
                   <Link to="/docs/Programming/python/">
                     <li>Python</li>
                   </Link>
