@@ -10,7 +10,7 @@ const config = {
 
   // Set the production url of your site here
   url: "https://192.168.0.6:3000",
-  baseUrl: "/Installer-Armory/",
+  baseUrl: "/Installer-Armory",
 
   organizationName: "facebook", // Your GitHub org/user name
   projectName: "Installation", // Your repo name
