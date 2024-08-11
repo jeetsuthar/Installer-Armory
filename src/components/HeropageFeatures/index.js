@@ -6,7 +6,8 @@ import "aos/dist/aos.css";
 import "./home.css";
 import "react-tooltip/dist/react-tooltip.css";
 import { Tooltip } from "react-tooltip";
-// import { Tooltip as ReactTooltip } from "react-tooltip";
+import { Tooltip as ReactTooltip } from "react-tooltip";
+import Link from '@docusaurus/Link';
 const Home = () => {
   useEffect(() => {
     Aos.init({ duration: 2000 });
@@ -258,13 +259,15 @@ const Home = () => {
                 </button>
               </div>
               <div className="Glass_Button_2">
-                <button
-                  data-tooltip-id="tooltips"
-                  data-tooltip-content="Send Request For Adding More Installation Guidance"
-                  data-tooltip-place="bottom"
-                >
-                  Request
-                </button>
+                <Link to="/request">
+                  <button
+                    data-tooltip-id="tooltips"
+                    data-tooltip-content="Send Request For Adding More Installation Guidance"
+                    data-tooltip-place="bottom"
+                  >
+                    Request
+                  </button>
+                </Link>
               </div>
             </div>
           </div>
@@ -281,10 +284,7 @@ const Home = () => {
             Programming Languages
           </h1>
 
-          <div
-            className="Marquee"
-            
-          >
+          <div className="Marquee">
             <Marquee
               direction="left"
               pauseOnHover="true"
@@ -307,7 +307,6 @@ const Home = () => {
               </div>
             </Marquee>
           </div>
-          
 
           <h1
             className="Marquee_content_Heading"
@@ -316,10 +315,7 @@ const Home = () => {
           >
             Most Popular Tools
           </h1>
-          <div
-            className="Marquee"
-            
-          >
+          <div className="Marquee">
             <Marquee
               direction="right"
               pauseOnHover="true"
@@ -366,8 +362,8 @@ const Home = () => {
                     </li>
                     <li>
                       {" "}
-                      Guidance on installing 30+ of popular programming
-                      languages, tools, and software.
+                      Guidance on installing 100+ of popular programming
+                      languages, tools, software and more.
                     </li>
                     <li>
                       {" "}

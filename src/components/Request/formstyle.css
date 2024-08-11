@@ -1,0 +1,254 @@
+/* Montserrat font */
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+/* Roboto font */
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+/* kanit font */
+@import url("https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+:root {
+  --Background: #ffffff;
+  --Dark: #000000;
+  --Blue: #1b2cc1;
+  --card_hover: rgba(100, 100, 111, 0.2);
+  --card_background: white;
+  --card_label: black;
+  --GlassColor: rgba(118, 141, 184, 0.15);
+  --chooseInfoHeadingColor: gray;
+  --textColor: #000;
+}
+[data-theme="dark"] {
+  --GlassColor: rgba(118, 141, 184, 0.15);
+  --Background: #1b1b1d;
+  --Dark: #ffffff;
+  --Blue: #2d3cc2;
+  --card_hover: rgb(6, 6, 6, 0.7);
+  --card_background: #44444481;
+  --card_label: rgb(213, 213, 213);
+  --chooseInfoHeadingColor: rgb(104, 103, 103);
+  --textColor: #f2f2f2;
+}
+.Glass_Button_Group .Glass_Button_1 button,
+.Glass_Button_2 button {
+  width: fit-content;
+  font-size: 16px;
+  padding: 10px 20px;
+}
+.two_diff_form_guide li i {
+  margin-right: 10px;
+}
+.two_diff_form_guide li{
+  font-family: "Montserrat", sans-serif;
+  letter-spacing:0.5px;
+  font-weight: 400;
+  font-size: 18px;
+  color: var(--textColor);
+}
+.two_diff_form_guide .bottom-space {
+  letter-spacing: 0.7px;
+  padding-bottom: 50px;
+}
+
+/* Request_New_Installation_Guide */
+
+.Request_New_Installation_Guide {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 50px 0;
+}
+.outer-form-div_new {
+  display: grid;
+  place-items: center;
+  width: 70%;
+  padding: 50px;
+  border-radius: 10px;
+  background-color: var(--GlassColor);
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+  letter-spacing: 0.7px;
+}
+.form_heading {
+  font-size: 2rem;
+  text-align: center;
+  color: var(--Dark);
+  font-weight: 500;
+  text-transform: capitalize;
+  font-family: "Kanit", sans-serif;
+  background: linear-gradient(
+    90deg,
+    #2d3cc2,
+    #bd25aa,
+    #ff3c82,
+    #ff7c5d,
+    #ffbd4f,
+    #f9f871
+  );
+  background-size: 300%;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: gradientAnimation 10s infinite;
+}
+@keyframes gradientAnimation {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+.form_description {
+  font-size: 20px;
+  text-align: center;
+}
+.outer-form-div_new form {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  width: 70%;
+  padding: 20px 0;
+}
+.new_form_user_name {
+  width: 100%;
+}
+.new_form_user_name textarea{
+  font-size: 9pt;
+    border: 3px inset #1d4189;
+    padding: .5em;
+    width: 300px;
+}
+.field_heading {
+  margin: 20px 0 0 0;
+}
+.label-margin{
+  margin-top: 10px;
+}
+.new_form_user_name input,
+.Email_verification_form input,
+.existing_content input {
+  width: 100%;
+  height: 50px;
+  outline: none;
+  letter-spacing: 1px;
+  word-spacing: 1px;
+  padding: 5px 20px;
+  font-size: 18px;
+  text-transform: capitalize;
+  background-color: var(--GlassColor);
+  border: 1px solid var(--GlassColor);
+  border-radius: 5px;
+}
+
+.new_form_user_name input::placeholder,
+.Email_verification_form input::placeholder {
+  font-size: 17px;
+  color: var(--textColor);
+  opacity: 0.7;
+}
+.new_form_checkbox_OS {
+  display: grid;
+  row-gap: 10px;
+  /* padding: 10px; */
+}
+.new_form_checkbox_OS input {
+  margin: 10px;
+}
+.star-important {
+  color: orangered;
+  font-size: 20px;
+}
+.individual_box{
+  margin-top: 20px;
+}
+
+.Email_verification_form {
+  display: flex;
+  border-radius: 10px;
+  overflow: hidden;
+  margin-top: 5px;
+}
+.Email_verification_form input {
+  border-top-right-radius: 0;
+  border-bottom-right-radius: 0;
+}
+.Email_verification_form button {
+  width: 30%;
+  border: none;
+  background: linear-gradient(90deg, #bd25a9, #ff3c82, #ff7c5d);
+  border-radius: none;
+  opacity: 0.8;
+  font-weight: 600;
+  letter-spacing: 1px;
+  transition: all 0.3s ease;
+}
+.Email_verification_form button:hover,
+.request_button:hover {
+  opacity: 1;
+}
+.request_button {
+  margin: 40px 0 0 0;
+  border: none;
+  height: 50px;
+  border-radius: 10px;
+  background: linear-gradient(90deg, #bd25a9, #ff3c82, #ff7c5d);
+  border-radius: none;
+  opacity: 0.9;
+  font-weight: 600;
+  letter-spacing: 1px;
+  transition: all 0.3s ease;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+.form_data{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+/* Style for sending request for updating and editing existing content and installation guidance */
+
+.customize_path {
+  display: flex;
+  gap: 20px;
+}
+.Modifying_steps{
+  margin-top:20px;
+}
+
+/* media Query for different devices */
+
+@media screen and (max-width: 1200px) {
+  .outer-form-div_new {
+    width: 90%;
+  }
+}
+@media screen and (max-width: 927px) {
+  .customize_path {
+    display: flex;
+    gap: 0;
+    flex-direction: column;
+  }
+  .form_data form{
+    width: 100%;
+    padding: 0 30px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .outer-form-div_new {
+    width: 100%;
+    margin: 25px 5px;
+    padding: 50px 10px;
+  }
+}
+@media screen and (max-width: 677px) {
+  .outer-form-div_new {
+    width: 100%;
+    margin: 15px 5px;
+  }
+}

@@ -114,7 +114,7 @@ const config = {
           ],
         },
         { to: "/blog", label: "About", position: "left" },
-        { to: "/blog", label: "Request", position: "right" },
+        { to: '/request', label: 'Request Form', position: 'right' },
         {
           href: "https://github.com/jeetsuthar/Installer-Armory",
           label: "GitHub",
