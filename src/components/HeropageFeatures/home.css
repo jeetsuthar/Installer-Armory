@@ -35,7 +35,7 @@
 .Intro_section {
   position: relative;
   height: auto;
-  margin: 100px 0 50px 0;
+  margin: 50px 0;
   overflow: hidden;
 }
 
@@ -146,6 +146,9 @@
   }
 }
 @media screen and (max-width: 768px) {
+  .Intro_section {
+    margin: 20px 0;
+  }
   .Glass_Effect {
     width: 100%;
     margin: 5px;
@@ -177,6 +180,7 @@
   }
   .Glass_Description {
     font-size: 16px;
+    width: 100%;
   }
   .Glass_Button_Group .Glass_Button_1 button,
   .Glass_Button_2 button {
@@ -346,7 +350,8 @@
 @media screen and (max-width: 768px) {
   .why-choose-us-div {
     width: 100%;
-    margin: 25px 5px;
+    padding: 20px 0;
+    /* margin: 25px 5px; */
   }
 }
 @media screen and (max-width: 677px) {

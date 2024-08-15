@@ -134,6 +134,7 @@
   margin: 20px 0 0 0;
   color: var(--textColor);
   font-weight: 500;
+  font-size: 16px;
 }
 .label-margin {
   margin-top: 10px;
@@ -240,6 +241,11 @@ input::-webkit-inner-spin-button {
   }
 }
 @media screen and (max-width: 927px) {
+
+  .two_diff_form_guide li ,.form_description {
+    font-size: 16px;
+  }
+   
   .customize_path {
     display: flex;
     gap: 0;
@@ -321,7 +327,7 @@ input::-webkit-inner-spin-button {
 /* error massage css  */
 .error_message {
   color: var(--Errormassage);
-  font-size: 5px;
+  font-size: 14px;
   font-weight: 500;
   width: fit-content;
   font-family: "Montserrat", sans-serif;
