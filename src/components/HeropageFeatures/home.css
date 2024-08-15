@@ -15,8 +15,10 @@
   --GlassColor: rgba(118, 141, 184, 0.15);
   --chooseInfoHeadingColor: gray;
   --textColor: #000;
+  --links-color: rgb(80, 80, 222);
 }
 [data-theme="dark"] {
+  --links-color: rgb(158, 160, 243);
   --GlassColor: rgba(118, 141, 184, 0.15);
   --Background: #1b1b1d;
   --Dark: #ffffff;
@@ -217,6 +219,7 @@
   .second_section_inner_div {
     width: 100%;
     margin: 25px 5px;
+    padding: 20px 10px;
   }
 }
 @media screen and (max-width: 677px) {
@@ -337,7 +340,7 @@
 
 @media screen and (max-width: 1200px) {
   .why-choose-us-div {
-    width: 90%;
+    width: 100%;
   }
 }
 @media screen and (max-width: 768px) {
@@ -412,7 +415,7 @@
   font-family: "Kanit", sans-serif;
   font-weight: 500;
   letter-spacing: 1px;
-  color: var(--chooseInfoHeadingColor);
+  color: var(--links-color);
 }
 .common_style p {
   font-family: "Montserrat", sans-serif;
@@ -421,10 +424,10 @@
   word-wrap: break-word;
   color: var(--textColor);
 }
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 968px) {
   .common_style {
     /* left-inner-sided-box and right-inner-sided-box*/
-    width: 80%;
+    width: 100%;
   }
 }
 @media screen and (max-width: 568px) {

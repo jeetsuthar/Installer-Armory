@@ -1,47 +1,51 @@
 ---
+title: Welcome ⇨ Introduction
 sidebar_position: 1
 ---
 
-# Tutorial Intro
+## 1. What is Installer-Armoury?
 
-Let's discover **Docusaurus in less than 5 minutes**.
+**Installer-Armoury** is your go-to web app for installing programming languages, software, and tools. Whether you're a beginner or an experienced developer, our platform makes it easy to find everything you need without hopping between different sites.
 
-## Getting Started
+## 2. Quick Start Guide
 
-Get started by **creating a new site**.
+**2.1 Choose Your Installation Type**
 
-Or **try Docusaurus immediately** with **[docusaurus.new](https://docusaurus.new)**.
+Start by picking the type of installation you’re looking for. Our guides are organized to help you find what you need quickly:
 
-### What you'll need
+- **Programming Languages:** Step-by-step guides for setting up languages like Python, JavaScript, Java, and more.
+- **Software:** Detailed instructions for installing popular software applications.
+- **Tools & Utilities:** Easy-to-follow guides for installing essential tools and utilities.
+- **Custom Installations:** Need something specific? Request new guides or custom setups if you don’t find what you need.
 
-- [Node.js](https://nodejs.org/en/download/) version 18.0 or above:
-  - When installing Node.js, you are recommended to check all checkboxes related to dependencies.
+**2.2 Select a Guide**
 
-## Generate a new site
+Browse through the guides in your chosen category. Each guide is designed to be simple and clear, with easy-to-follow steps and helpful screenshots.
 
-Generate a new Docusaurus site using the **classic template**.
+**2.3 Follow the Steps**
 
-The classic template will automatically be added to your project after you run the command:
+Click on the guide that matches your needs and follow each step carefully. We’ve included tips and troubleshooting advice to help you along the way.
 
-```bash
-npm init docusaurus@latest my-website classic
-```
+**2.4 Get Assistance if Needed**
 
-You can type this command into Command Prompt, Powershell, Terminal, or any other integrated terminal of your code editor.
+If you have questions or run into issues, check our [FAQ](#) section for answers. For more help, visit our [Support Page](https://github.com/jeetsuthar/InstallerArmory) or join our [Community Forum](https://github.com/jeetsuthar/InstallerArmory) to connect with other users and experts.
 
-The command also installs all necessary dependencies you need to run Docusaurus.
 
-## Start your site
 
-Run the development server:
+## 3. User Requests and Contributions
 
-```bash
-cd my-website
-npm run start
-```
+**Not seeing what you need?** We’re here to help! Visit our [Request](/request) to:
 
-The `cd` command changes the directory you're working with. In order to work with your newly created Docusaurus site, you'll need to navigate the terminal there.
+- **Request a New Guide:** Tell us what new guides you’d like to have.
+- **Suggest Improvements:** Share your ideas to enhance our current guides.
 
-The `npm run start` command builds your website locally and serves it through a development server, ready for you to view at http://localhost:3000/.
+Your feedback helps us improve and expand our content!
 
-Open `docs/intro.md` (this page) and edit some lines: the site **reloads automatically** and displays your changes.
+## 4. Support and Resources
+
+**Need more assistance?** We’ve got you covered. Visit our [Support Page](https://github.com/jeetsuthar/InstallerArmory) for answers to common questions, or join our [Community Forum](https://github.com/jeetsuthar/InstallerArmory) to:
+
+- **Get Tips and Advice:** Connect with fellow users and experts.
+- **Find Solutions:** Get support for any issues you might be experiencing.
+
+We’re here to support you every step of the way!

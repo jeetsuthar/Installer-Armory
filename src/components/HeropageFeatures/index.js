@@ -250,13 +250,15 @@ const Home = () => {
             </div>
             <div className="Glass_Button_Group">
               <div className="Glass_Button_1">
-                <button
-                  data-tooltip-id="tooltips"
-                  data-tooltip-content="Let's Start Your First Installation"
-                  data-tooltip-place="bottom"
-                >
-                  Get Start
-                </button>
+              <Link to="/docs/intro/">
+                  <button
+                    data-tooltip-id="tooltips"
+                    data-tooltip-content="Let's Start Your First Installation"
+                    data-tooltip-place="bottom"
+                  >
+                    Get Started
+                  </button>
+                </Link>
               </div>
               <div className="Glass_Button_2">
                 <Link to="/request">
@@ -278,7 +280,7 @@ const Home = () => {
         <div className="second_section_inner_div">
           <h1
             className="Marquee_content_Heading"
-            data-aos="zoom-out"
+            data-aos="fade-up"
             data-aos-duration="500"
           >
             Programming Languages
@@ -289,7 +291,7 @@ const Home = () => {
               direction="left"
               pauseOnHover="true"
               autoFill="true"
-              speed={120}
+              speed={250}
             >
               <div className="Tech_name">
                 {Languages.map((item, index) => (
@@ -310,7 +312,7 @@ const Home = () => {
 
           <h1
             className="Marquee_content_Heading"
-            data-aos="zoom-out"
+            data-aos="fade-up"
             data-aos-duration="500"
           >
             Most Popular Tools
@@ -320,7 +322,7 @@ const Home = () => {
               direction="right"
               pauseOnHover="true"
               autoFill="true"
-              speed={120}
+              speed={250}
             >
               <div className="Tech_name">
                 {Software.map((item, index) => (
@@ -340,7 +342,7 @@ const Home = () => {
         <div className="why-choose-us-div">
           <div
             className="Section-Main-Heading"
-            data-aos="zoom-out"
+            data-aos="fade-up"
             data-aos-duration="500"
           >
             <h1>Why Choose Us ?</h1>
@@ -349,7 +351,7 @@ const Home = () => {
             <div className="left-sided-box">
               <div
                 className="left-inner-sided-box common_style "
-                data-aos="zoom-out"
+                data-aos="fade-up"
                 data-aos-duration="500"
               >
                 <h1>Comprehensive Guidance</h1>
@@ -382,7 +384,7 @@ const Home = () => {
             <div className="right-sided-box">
               <div
                 className="right-inner-sided-box common_style "
-                data-aos="zoom-out"
+                data-aos="fade-up"
                 data-aos-duration="500"
               >
                 <h1>Beginner-Friendly</h1>
@@ -407,7 +409,7 @@ const Home = () => {
             <div className="left-sided-box">
               <div
                 className="left-inner-sided-box common_style "
-                data-aos="zoom-out"
+                data-aos="fade-up"
                 data-aos-duration="500"
               >
                 <h1>Open Source</h1>
@@ -432,7 +434,7 @@ const Home = () => {
             <div className="right-sided-box">
               <div
                 className="right-inner-sided-box common_style "
-                data-aos="zoom-out"
+                data-aos="fade-up"
                 data-aos-duration="500"
               >
                 <h1>Up-to-Date Information</h1>

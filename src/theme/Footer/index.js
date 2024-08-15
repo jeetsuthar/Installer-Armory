@@ -57,8 +57,8 @@ const Footer = () => {
                   <Link to="">
                     <li>Legal</li>
                   </Link>
-                  <Link to="">
-                    <li>Contact Us</li>
+                  <Link to="/request">
+                    <li>Request Us</li>
                   </Link>
                   <Link to="">
                     <li>Terms and conditions</li>
@@ -114,28 +114,28 @@ const Footer = () => {
               </div>
               <div className="footer_links_parts_multiple_link">
                 <ul>
-                  <Link to="">
+                  <Link to="/docs/Code_Editors/vs_code">
                     <li>VS Code</li>
                   </Link>
-                  <Link to="">
+                  <Link to="/docs/Code_Editors/PyCharm">
                     <li>PyCharm</li>
                   </Link>
-                  <Link to="">
+                  <Link to="/docs/Code_Editors/InterlliJ_IDEA">
                     <li>IntelliJ IDEA</li>
                   </Link>
-                  <Link to="">
+                  <Link to="/docs/Code_Editors/Eclipse">
                     <li>Eclipse</li>
                   </Link>
-                  <Link to="">
+                  <Link to="/docs/Code_Editors/RStudio">
                     <li>RStudio</li>
                   </Link>
-                  <Link to="">
+                  <Link to="/docs/Code_Editors/Xcode">
                     <li>Xcode</li>
                   </Link>
-                  <Link to="">
+                  <Link to="/docs/Code_Editors/Notepad">
                     <li>Notepad++</li>
                   </Link>
-                  <Link to="">
+                  <Link to="/docs/Code_Editors/Android_Studio">
                     <li>Android Studio</li>
                   </Link>
                 </ul>
