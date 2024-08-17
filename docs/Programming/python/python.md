@@ -34,7 +34,7 @@ Make sure to check both the checkboxes:
 - Add python.exe to PATH : Make sure to check the option to **Add Python to PATH** if available. This makes it easier to use Python from the command line.
 
 After that click on the `Customize installation` to proceed.  
-<img src={First} alt="First_step" width="600" height="400" style={{border: "2px solid", padding: "5px", borderRadius: "5px", width: "100%", height: "auto", maxWidth: "600px"}}/>
+<img src={First} alt="First_step" width="600" height="400" style={{border: "2px solid", padding: "5px", borderRadius: "5px", width: "100%", height: "auto", maxWidth: "700px"}}/>
 
 #### ensure you check the following options (In Optional Features)
 
@@ -46,7 +46,7 @@ After that click on the `Customize installation` to proceed.
 - Ensure the option for all users (requires admin privileges) is checked.
 
 After selecting the options, click on the `Next button` to proceed.
-<img src={Second} alt="Second_step" width="600" height="400" style={{border: "2px solid", padding: "5px", borderRadius: "5px", width: "100%", height: "auto", maxWidth: "600px"}}/>
+<img src={Second} alt="Second_step" width="600" height="400" style={{border: "2px solid", padding: "5px", borderRadius: "5px", width: "100%", height: "auto", maxWidth: "700px"}}/>
 
 The following options are available under Advanced Options. Some are automatically selected, and some need to be manually checked:
 
@@ -60,13 +60,13 @@ If any of the options shown in the image below are not checked in your operating
 :::
 
 After selecting the options, click on the `Install button` to proceed.
-<img src={Third} alt="Third_step" width="600" height="400" style={{border: "2px solid", padding: "5px", borderRadius: "5px", width: "100%", height: "auto", maxWidth: "600px"}}/>
+<img src={Third} alt="Third_step" width="600" height="400" style={{border: "2px solid", padding: "5px", borderRadius: "5px", width: "100%", height: "auto", maxWidth: "700px"}}/>
 
 After the installation, you will see a page displaying `Setup was successful`. Click on the `Close button`.
 
 **congratulations** 👏 — you have successfully installed Python on your operating system.
 
-<img src={Fourth} alt="Fourth_step" width="600" height="400" style={{border: "2px solid", padding: "5px", borderRadius: "5px", width: "100%", height: "auto", maxWidth: "600px"}}/>
+<img src={Fourth} alt="Fourth_step" width="600" height="400" style={{border: "2px solid", padding: "5px", borderRadius: "5px", width: "100%", height: "auto", maxWidth: "700px"}}/>
 
 **Step 4** : Open a command prompt (Windows) and type and paste
 
@@ -172,22 +172,22 @@ import six from '../../../static/Images/Python/6.png';
 
 - Double-click the downloaded `.pkg` file to start the installation process.
 - You will see a pop-up window. Click `Continue` to proceed.
-  <img src={one} alt="First_step" width="600" height="400" style={{border: "2px solid", padding: "5px", borderRadius: "5px", width: "100%", height: "auto", maxWidth: "600px"}}/>
+  <img src={one} alt="First_step" width="600" height="400" style={{border: "2px solid", padding: "5px", borderRadius: "5px", width: "100%", height: "auto", maxWidth: "700px"}}/>
 
 - If you want to read the license terms and conditions, please do so. Otherwise, scroll down and click the `Continue` button.
-  <img src={two} alt="First_step" width="600" height="400" style={{border: "2px solid", padding: "5px", borderRadius: "5px", width: "100%", height: "auto", maxWidth: "600px"}}/>
+  <img src={two} alt="First_step" width="600" height="400" style={{border: "2px solid", padding: "5px", borderRadius: "5px", width: "100%", height: "auto", maxWidth: "700px"}}/>
 
 - Read everything, then click the `Continue` button.
-  <img src={three} alt="First_step" width="600" height="400" style={{border: "2px solid", padding: "5px", borderRadius: "5px", width: "100%", height: "auto", maxWidth: "600px"}}/>
+  <img src={three} alt="First_step" width="600" height="400" style={{border: "2px solid", padding: "5px", borderRadius: "5px", width: "100%", height: "auto", maxWidth: "700px"}}/>
 
 - Read everything, then click the `Continue` button.
-  <img src={four} alt="First_step" width="600" height="400" style={{border: "2px solid", padding: "5px", borderRadius: "5px", width: "100%", height: "auto", maxWidth: "600px"}}/>
+  <img src={four} alt="First_step" width="600" height="400" style={{border: "2px solid", padding: "5px", borderRadius: "5px", width: "100%", height: "auto", maxWidth: "700px"}}/>
 
 - Agree to all the terms and conditions, then click the `Agree` button.
-  <img src={five} alt="First_step" width="600" height="400" style={{border: "2px solid", padding: "5px", borderRadius: "5px", width: "100%", height: "auto", maxWidth: "600px"}}/>
+  <img src={five} alt="First_step" width="600" height="400" style={{border: "2px solid", padding: "5px", borderRadius: "5px", width: "100%", height: "auto", maxWidth: "700px"}}/>
 
 - Now we are at the final stage of the installation. Click the `Install` button
-  <img src={six} alt="First_step" width="600" height="400" style={{border: "2px solid", padding: "5px", borderRadius: "5px", width: "100%", height: "auto", maxWidth: "600px"}}/>
+  <img src={six} alt="First_step" width="600" height="400" style={{border: "2px solid", padding: "5px", borderRadius: "5px", width: "100%", height: "auto", maxWidth: "700px"}}/>
 
 **Step 4 : Verify Installation**
 
